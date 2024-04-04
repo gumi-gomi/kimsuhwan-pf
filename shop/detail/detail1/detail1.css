@@ -1,0 +1,235 @@
+/* --------------- */
+/* .test{ border: 1px solid red;} */
+.flex{display: flex;}
+.shadow{box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.185);}
+.w1200{width: 1200px;}
+.center{margin: 0 auto;}
+/* --------------- */
+
+/* -----------------header 시작 */
+ul{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#main_menu{
+    margin-top: 65px;
+    margin-left: 5vw;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(194, 194, 194);
+    margin: 0; padding: 0;
+    z-index: 2;
+}
+#logo{
+    background-image: url(detail1img/logo.png);
+    width: 190px;
+    height: 90px;
+    background-size: cover;
+    transform: translate(0px,-20px);
+}
+#main_menu>li>div{
+    margin: 0 10px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    color: white;
+}
+.sub_menu>li{
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    background-color: white;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+#main_menu:hover{
+    cursor: pointer;
+}
+#ftwrap{
+    width: 75vw;
+}
+#ftmain_menu{
+    width: 100px; height: 25px;
+    margin-left:60vw;
+    margin-top: 1vh;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+/* -----------------header 끝*/
+
+/*  메뉴바시작 */
+#menubar{
+    position: absolute;
+    color: white;
+    margin-left: 75vw;
+    margin-top: 55px;
+}
+.menubar>ul>li{
+   margin-left:80px;
+}
+#login{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(detail1img/login.png);
+}
+#center{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(detail1img/counse.png);
+}
+#mypage{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(detail1img/mypage.png);
+}
+/*  메뉴바끝 */
+
+
+
+
+
+/* footer 시작 */
+footer{
+    position: relative;
+   height: 200px;
+   margin-top: 50px;
+   width: 100%;
+   padding: 0;
+   background: rgba(128, 128, 128, 0.329);
+
+}
+#copy{
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    width:600px;
+    font-size:15px ;
+    border-right: 1px solid white;
+   
+}
+#lorem{
+    position: absolute;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 700px;
+    color: white;
+}
+
+/* footer 끝 */
+
+
+/*상세페이지 시작 -------------------------*/
+#wrap{
+    width: 1000px; height: 700px;
+}
+#leftbox{
+    width: 450px; height: 450px;
+   margin-left: 5%;
+    
+}
+#categ>div:nth-child(1){
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.473);
+    margin-top: 10px;
+}
+#categ>div:nth-child(2){
+   font-weight: 700;
+}
+h5{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.565);
+}
+#leftbox{
+    background-image: url(detail1img/topimg1.png);
+    background-size: cover;
+
+}
+#rightbox{
+    width: 350px; height: 450px;
+    margin-left: 60px;
+}
+
+#rightbox>div:nth-child(1){
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+#rightbox>div>h3{
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 20px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.223);
+}
+#age{
+    border-top: 1px solid rgba(0, 0, 0, 0.20);
+    height: 20px;
+}
+#age>h6{
+    transform: translateY(-22px);
+    color: rgba(0, 0, 255, 0.527);
+}
+#delinfo{
+    border-top: 1px solid rgba(0, 0, 0, 0.20);
+}
+#delinfo>div>h3{
+    margin-top: 0px;
+ }
+#delinfo>table{
+    margin-top: 0px;
+    font-size: 12px;
+}
+#delinfo>div>h5{
+   margin-top: 3px;
+}
+#date{
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+}
+#prinfo>h3{
+    line-height: 0px;
+}
+#priceinfo{
+    border-top: 1px solid rgba(0, 0, 0, 0.304);
+}
+select{
+    margin-top: 20px;
+}
+#end{
+    margin-top: 10px;
+    justify-content: space-around;
+}
+#end>div{
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+#cart{
+    background-color: white;
+}
+#buy{
+    background-color: black;
+    color: white;
+}
+#sspage1{
+    background-image: url(detail1img/sspage1.png);
+    width: 900px;
+    height:6000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#sspage2{
+    background-image: url(detail1img/sspage2.png);
+    width: 900px;
+    height:6000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* 상세페이지 끝 -------------------------*/

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='ko'>
+   <head>
+       <meta charset='UTF-8'>
+       <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+       <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+       <title>title</title>
+       <script src='https://code.jquery.com/jquery-latest.min.js'></script>
+       <!-- 제이쿼리---------------------------------->
+       <script>
+        $(function(){
+
+            $('.news_area').hide();
+            $('.news_area:first-child').show();
+            $('#tap_menu>li').hover(
+                function(){
+                    $(this).css({cursor:'pointer',backgroundColor:'red'});
+
+                }
+            );
+
+            $('#tap_menu>li').mouseleave(
+                function(){
+                    $(this).css({cursor:'pointer',backgroundColor:'lightslategray'});
+
+                }
+            );
+            $('#tap_menu>li').click(
+                function(){
+                    console.log($(this).index());
+                    $('#tap_menu>li').removeClass('on');
+                    $(this).addClass('on');
+                    $('.news_area').hide();
+                    $('.news_area').eq($(this).index()).show();
+                }
+            );
+        });
+
+       </script>
+       <link rel='stylesheet' href=''>
+       <!-- css-------------------------------------->
+       <style>
+        ul{
+            list-style: none; padding: 0; margin: 0;
+        }
+      
+        #tap_menu{
+            display: flex;
+        }
+        #tap_menu>li{
+            width: 150px; height: 50px;
+            background: lightslategray;
+            text-align: center;
+            line-height: 50px;
+            box-sizing: border-box;
+        }
+        
+        .on{
+            background: lightcoral;
+            color: white;
+        }
+        #tap_menu li:not(:last-child){
+            border-right: 1px solid black;
+        }
+        .news_area{
+            width: 450px; height: 200px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+       </style>
+   </head>
+   <body>
+<!-- wrap -->
+    <div>
+        
+        <div>
+            <ul id="tap_menu">
+                <li>공지사항</li>
+                <li>국내뉴스</li>
+                <li>해외뉴스</li>
+            </ul>
+        </div>
+       
+         
+        <div>
+            <div class="news_area">공지사항</div>
+            <div class="news_area">국내뉴스</div>
+            <div class="news_area">해외뉴스</div>
+        </div>
+    </div>
+       
+   </body>
+</html>

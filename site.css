@@ -1,0 +1,490 @@
+/* all */
+.w1200{width: 1200px;}
+.center{margin: 0 auto;}
+.est{border: 2px solid red;}
+.flex{display: flex;}
+.shadow{box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.069);}
+html{scroll-behavior: smooth;}
+/* ---------- */
+/* 왼쪽메뉴시작------------- */
+#logo{
+    width: 100px; height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+#leftmenu{
+    width: 200px; height: 3000px;
+    position: fixed;
+   
+}
+#leftmenu>ul{
+    list-style: none;
+    margin-top: 250px;     
+    position: fixed;
+    
+}
+#leftmenu>ul>li{
+    margin-bottom: 10px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+/* 왼쪽메뉴끝------------- */
+
+/* 오른쪽공간 소개시작 */
+#intro{width: 100%; height: ;}
+#blankintro{
+    width: 250px;
+    height: 200px;
+}
+#introd{
+    width: 100%;
+    height: 20vw;
+    overflow: hidden;
+    position: relative
+}
+#intro>div:nth-child(2)>img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s;
+    transform: translate(-50% -50%);
+    
+ }
+/* 오른쪽공간 소개끝 */
+
+/* 인디자인 시작--------------------------- */
+
+/* 인디자인1번사진 */
+#indesign{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#tag3{
+    font-size: 1vw;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+  
+   
+
+#right4{
+    width:100%;
+    height:auto;
+    padding-top: 1%;
+}
+#right4>#line4{
+    width:30%;
+    height:35vw;
+    margin: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+#right4>div:nth-child(2)>img{
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   transition: all 0.5s;
+   transform: translate(-50% -50%);
+}
+
+                                                 /* show_box 관련 */
+#right4>#line4{
+    position: relative;
+    overflow: hidden;
+}
+#right4>#line4:hover{
+    cursor: pointer;
+}
+#right4>#line4:hover>.detail{
+    top: 50%;
+    color: white;
+}
+#right4>#line4:hover>img{
+    filter: blur(5px);
+    
+}
+
+.detail{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.362);
+    transition: all 0.5s;
+    text-align: center;
+    font-size: 1vw;
+}
+/* 인디자인1번사진 끝 */
+
+/* 인디자인2번사진 */
+
+
+#right4>div:nth-child(3)>img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s;
+    transform: translate(-50% -50%);
+ }
+ /* 인디자인2번사진 끝 */
+/* 인디자인3번사진 */
+#right4>div:nth-child(4)>img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s;
+    transform: translate(-50% -50%);
+ }
+ 
+/* 인디자인3번사진 끝 */
+
+
+/* 인디자인4번사진 시작 */
+#right4>div:nth-child(5)>img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.5s;
+    transform: translate(-50% -50%);
+ }
+ 
+
+/* 인디자인4번사진 끝 */
+
+/* 인디자인 끝 */
+
+/* 오른쪽1줄(포토샵) 시작 */
+#photoshop{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#tag1{
+    font-size: 1vw;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+  
+#right{
+    width:100%;
+    height:auto;
+    padding-top: 2%;
+}
+#right>#line1{
+    width:30%;
+    height:40vw;
+    margin: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+#right>#line1:nth-child(2)>img{
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   transition: all 0.5s;
+   transform: translate(-50% -50%);
+}
+
+                                                 /* show_box 관련 */
+#right>#line1{
+    position: relative;
+    overflow: hidden;
+}
+#right>#line1:hover{
+    cursor: pointer;
+}
+#right>#line1:hover>.detail{
+    top: 50%;
+    color: white;
+}
+#right>#line1:hover>img{
+    filter: blur(5px);
+    
+}
+
+.detail{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.362);
+    transition: all 0.5s;
+    text-align: center;
+}
+                                                /* show_box 관련 끝 */
+
+                                                  /* 모달----------------------- */    
+                  .modal {
+                    display: none; /* 모달창 숨겨 놓기 */
+                    position: fixed; 
+                    z-index: 1; /* 모달창을 제일 앞에 두기 */
+                    padding-top: 100px;
+                    left: 0; top: 0;
+                    width: 100%; height: 100%;
+                    overflow: auto; /* 스크롤 허용 auto */
+                    cursor: pointer; /* 마우스 손가락모양 */
+                    background-color: rgba(0, 0, 0, 0.8);
+                  }
+                  /* 모달창 이미지 */
+                  .modal_content {
+                    margin: auto;
+                    display: block;
+                    width: 50%; height: auto;
+                    max-width: 2000px;
+                    animation-name: zoom;
+                    animation-duration: 0.3s;
+                  }
+                  /* 모달창 애니메이션 추가 */
+                  @keyframes zoom {
+                    from {transform: scale(0)}
+                    to {transform: scale(1)}
+                  }
+                  /* 닫기 버튼 꾸미기 */
+                  .close {
+                    position: absolute;
+                    top: 15px;
+                    right: 35px;
+                    color: #f1f1f1;
+                    font-size: 40px;
+                    font-weight: bold;
+                    transition: 0.3s;
+                  }
+                  .close:hover, .close:focus{
+                    color: #bbb;
+                    text-decoration: none;
+                    cursor: pointer;
+                  }
+                
+                   /* 모달----------------------- */
+
+/* 오른쪽(포토샵)1줄 끝 */
+
+/* 오른쪽2줄 시작 */
+#right2{
+    width:100%;
+    height:auto;
+    padding-top: 5%;
+}
+#blank{
+    width: 300px;
+}
+#blank_web{
+    width: 215px;
+}
+
+#right2>#line2{
+    width:30%;
+    height:33vw;
+    display:inline-block;
+    margin: 0 10px;
+    
+}
+/* 오른쪽2줄 끝 */
+
+
+
+/* 일러스트 1줄시작--------- */
+#illustrator{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#tag2{
+    font-size: 1vw;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+  
+#right3{
+    width:100%;
+    height:auto;
+    padding-top: 2%;
+}
+#right3>#line3{
+    width:20%;
+    height:35vw;
+    margin: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+#right3>#line3:nth-child(2)>img{
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   transition: all 0.5s;
+   transform: translate(-50% -50%);
+}
+
+                                                 /* show_box 관련 */
+#right3>#line3{
+    position: relative;
+    overflow: hidden;
+}
+#right3>#line3:hover{
+    cursor: pointer;
+}
+#right3>#line3:hover>.detail{
+    top: 50%;
+    color: white;
+}
+#right3>#line3:hover>img{
+    filter: blur(5px);
+    
+}
+#blank_brand{
+    width: 200px;
+}
+
+.detail{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.362);
+    transition: all 0.5s;
+    text-align: center;
+}
+
+/* 일러스트 1줄끝--------- */
+
+/* html 1줄시작 */
+#html{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#tag4{
+    font-size: 1vw;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    
+}
+  
+#right5{
+    width:100%;
+    height:auto;
+    padding-top: 2%;
+}
+#right5>#line5{
+    width:45%;
+    height:15vw;
+    margin: 0 10px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+#right5>div:nth-child(2)>a>img{
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   transition: all 0.5s;
+   transform: translate(-50% -50%);
+}
+
+
+
+                                                 /* show_box 관련 */
+#right5>#line5{
+    position: relative;
+    overflow: hidden;
+}
+#right5>#line5:hover{
+    cursor: pointer;
+}
+#right5>#line5:hover>a>.detail{
+    top: 50%;
+    color: white;
+}
+#right5>#line5:hover>a>img{
+    filter: blur(5px);
+    
+}
+
+.detail{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.362);
+    transition: all 0.5s;
+    text-align: center;
+}
+
+
+/* html 1줄끝 */
+
+/* html 2줄 */
+#right5>div:nth-child(3)>a>img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+    transition: all 0.5s;
+    transform: translate(-50% -50%);
+ }
+ 
+ 
+ 
+                                                  /* show_box 관련 */
+ #right5>#line5{
+     position: relative;
+     overflow: hidden;
+ }
+ #right5>#line5:hover{
+     cursor: pointer;
+ }
+ #right5>#line5:hover>a>.detail{
+     top: 50%;
+     color: white;
+ }
+ #right5>#line5:hover>a>img{
+     filter: blur(5px);
+     
+ }
+ 
+/* html 2줄끝 */
+
+
+/* footer시작 */
+footer{
+    height: 200px;
+    background-color: rgba(173, 216, 230, 0.312);
+    margin-top: 30px;
+}
+*{
+    margin: 0; padding: 0;
+}
+/* footer끝 */

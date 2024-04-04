@@ -1,0 +1,163 @@
+/* --------------- */
+.test{ border: 1px solid red;}
+.flex{display: flex;}
+.shadow{box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.11);}
+a{text-decoration: none;}
+/* --------------- */
+body{
+    background-color: rgba(0, 0, 0, 0.051);
+}
+#main{
+    width: 400px; height: 1000px;
+    margin-left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    background-color: white;
+    padding cation
+}
+#back{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 30px; height: 30px;
+    background-image: url(loginimg/back.png);
+    background-size: contain;
+    opacity: 50%;
+    border-radius: 3px;
+}
+#sub{
+    margin-top: 100px;
+    
+}
+#sub>div:nth-child(1)>input{
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    opacity: 50%;
+    box-sizing: border-box;
+}
+#sub>div:nth-child(2)>input{
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    opacity: 50%;
+    box-sizing: border-box;
+}
+#sub>div:nth-child(3){
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+#sub>div:nth-child(4){
+    width: 90%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#sub>div:nth-child(5){
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color: rgb(255, 238, 0);
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+#sub>div:nth-child(6){
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color: rgb(26, 225, 7);
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+#login_btn:hover{
+    cursor: pointer;
+}
+#kakaologin:hover{
+    cursor: pointer;
+}
+#naver{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px; height: 40px;
+    background-image: url(loginimg/naver.png);
+    margin-left: 25%;
+    margin-top: 8px;
+}
+
+#sub>div:nth-child(7){
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  
+    color: rgba(37, 135, 255, 0.572);
+    text-align: center;
+
+}
+
+#kakao{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px; height: 40px;
+    background-image: url(loginimg/kakao.png);
+    margin-left: 30%;
+    margin-top: 8px;
+    
+    
+}
+#findid>div{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.329);
+}
+#findidpass{
+    justify-content: space-around;
+}
+
+#sub>div:nth-child(5){
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#sub>div:nth-child(6){
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#sub>div:nth-child(7){
+    width: 90%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+h3{
+    margin-left: 50%;
+    transform: translateX(-15%);
+
+}

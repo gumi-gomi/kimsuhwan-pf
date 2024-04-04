@@ -1,0 +1,532 @@
+/* --------------- */
+html{scroll-behavior: smooth;}
+.flex{display: flex;}
+.shadow{box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.066);}
+.w1200{width: 1200px;}
+.center{margin: 0 auto;}
+/* --------------- */
+
+/* -----------------header 시작 */
+ul{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#main_menu{
+    margin-top: 65px;
+    margin-left: 5vw;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(194, 194, 194);
+    margin: 0; padding: 0;
+    z-index: 2;
+}
+#logo{
+   background-image: url(../img/logo.png);
+    width: 190px;
+    height: 90px;
+    background-size: cover;
+    transform: translate(0px,-20px);
+}
+#main_menu>li>div{
+    margin: 0 10px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    color: white;
+}
+.sub_menu>li{
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    background-color: white;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+#main_menu:hover{
+    cursor: pointer;
+}
+#ftwrap{
+    width: 75vw;
+}
+#ftmain_menu{
+    width: 100px; height: 25px;
+    margin-left:60vw;
+    margin-top: 1vh;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+/* -----------------header 끝*/
+
+/*  메뉴바시작 */
+#menubar{
+    position: absolute;
+    color: white;
+    margin-left: 75vw;
+    margin-top: 55px;
+}
+.menubar>ul>li{
+   margin-left:80px;
+}
+#login{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(../img/login.png);
+}
+#center{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(../img/counse.png);
+}
+#mypage{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(../img/mypage.png);
+}
+/*  메뉴바끝 */
+/* 필터 */
+#ftmain_menu>li>div{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.448);
+}
+.ftsub_menu>li{
+    z-index: 3;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.108);
+    background-color: white;
+    height: 25px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.594);
+}
+#ftmain_menu:hover{
+    cursor: pointer;
+    
+}
+.ftsub_menu>li:hover{
+    cursor: pointer;
+    background-color: rgb(183, 183, 183);
+}
+/* 필터 */
+
+
+
+
+/* footer 시작 */
+footer{
+    position: relative;
+   height: 200px;
+   margin-top: 50px;
+   width: 100%;
+   padding: 0;
+   background: rgba(128, 128, 128, 0.329);
+
+}
+#copy{
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    width:600px;
+    font-size:15px ;
+    border-right: 1px solid white;
+   
+}
+#lorem{
+    position: absolute;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 700px;
+    color: white;
+}
+
+/* footer 끝 */
+
+/* 중간내용 시작 */
+#wrap{
+    margin-top: 5px;
+    background-color: rgb(194, 194, 194);
+}
+#top{
+    width: 1500px;
+    height: 160px;
+}
+#left{
+    width: 650px;
+}
+#myid{
+    
+    
+    border-radius: 10px 10px 0px 0px;
+}
+#left>div:nth-child(1){
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#left>div:nth-child(2){
+    width: 500px;
+}
+#left>div:nth-child(2)>div:nth-child(2){
+    margin-left: 30px;
+    font-weight: 600;
+    
+}
+#top>div:nth-child(1)>div:nth-child(2)>div:nth-child(1){
+    width: 120px; height: 120px;
+    background-image: url(mypageimg/mymy.png);
+    background-size: contain;
+}
+.topinfo{
+    margin-top: 50px;
+    width: 130px; height: 100px;
+    background-color: white;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+.topinfo>h2{
+ 
+}
+
+
+/* 왼쪽고정메뉴 */
+#leftmenu{
+    width: 130px; height: 260px;
+    position: fixed;
+    border-radius: 10px;
+}
+#leftmenu>div>h3{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+}
+#leftsub{
+    text-align: center;
+}
+#leftsub>a{
+    text-decoration: none;
+    color: black;
+}
+#leftsub>a>li{
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+/* 왼쪽고정메뉴 끝 */
+
+/* 주문내역 조회 */
+#orderlist{
+    width: 1500px;
+    margin-left: 145px;
+}
+#orderlist>h3{
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    width: 160px;
+    height: 35px;
+}
+#orderlist>ul>li{
+    color: rgba(0, 0, 0, 0.466);
+}
+#orderchart{
+    width: 1500px;
+    margin-left: 145px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.400);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.400);
+}
+#orderchart>li:nth-child(1){
+    margin-left: 200px;
+}
+#orderchart>li:nth-child(2){
+    margin-left: 200px;
+}
+#orderchart>li:nth-child(3){
+    margin-left: 150px;
+}
+#orderchart>li:nth-child(4){
+    margin-left: 150px;
+}
+#orderchart>li:nth-child(5){
+    margin-left: 160px;
+}
+/* 주문내역 조회 끝 */
+
+/* 최근 주문내역이 없습니다. */
+#latest{
+    width: 1500px;
+    margin-left: 145px;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.401);
+}
+/* 최근 주문내역이 없습니다 끝. */
+
+/* 장바구니 */
+#cart{
+    width: 1500px;
+    margin-left: 145px;
+}
+#cart>h3{
+    text-align: center;
+    line-height: 35px;
+    width: 160px;
+    height: 35px;
+    border-radius: 5px;
+}
+#cart>ul{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.434);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.416);
+}
+
+#cart>ul>li:nth-child(1){
+    margin-left: 200px;
+}
+#cart>ul>li:nth-child(2){
+    margin-left: 200px;
+}
+#cart>ul>li:nth-child(3){
+    margin-left: 150px;
+}
+#cart>ul>li:nth-child(4){
+    margin-left: 150px;
+}
+#cart>ul>li:nth-child(5){
+    margin-left: 160px;
+}
+/* 장바구니 끝 */
+
+/* 결제하기버튼 */
+#buy_btn{
+    cursor: pointer;
+    width: 300px; height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: rgba(240, 128, 128, 0.437);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 750px;
+    margin-bottom: 60px;
+}
+/* 결제하기버튼 끝 */
+
+/* 쿠폰 */
+#coupon{
+    width: 1500px;
+    margin-left: 145px;
+}
+#coupon>h3{
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    width: 160px;
+    height: 35px;
+}
+#coupon>ul{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.434);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.416);
+}
+
+#coupon>ul>li:nth-child(1){
+    margin-left: 40px;
+}
+#coupon>ul>li:nth-child(2){
+    margin-left: 300px;
+}
+#coupon>ul>li:nth-child(3){
+    margin-left: 400px;
+}
+#coupon>ul>li:nth-child(4){
+    margin-left: 150px;
+}
+
+#coupon>ul>li:nth-child(5){
+    margin-left: 160px;
+}
+table{
+    margin-left: 145px;
+}
+.coupon_sub{
+    text-align: center;
+}
+.coupon_sub>td{
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.417);
+}
+.coupon_sub>td:nth-child(1){
+    width: 150px;
+}
+.coupon_sub>td:nth-child(2){
+    width: 560px;
+}
+.coupon_sub>td:nth-child(3){
+    width: 320px;
+}
+.coupon_sub>td:nth-child(4){
+    width: 110px;
+}
+.coupon_sub>td:nth-child(5){
+    width: 325px;
+}
+
+/* 쿠폰끝 */
+
+/* 좋아요한 상품 */
+#like{
+    margin-top: 100px;
+    width: 1500px;
+    margin-left: 145px;
+}
+#like>h3{
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    width: 160px;
+    height: 35px;
+}
+#like_list{
+    border-top: 1px solid rgba(0, 0, 0, 0.419);
+
+}
+#like_list>div{
+    display: inline-block;
+    width: 140px; height: 140px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+#like1{
+    background-image: url(mypageimg/like1.png);
+    background-size: contain;
+}
+#like2{
+    background-image: url(mypageimg/like2.png);
+    background-size: contain;
+}
+/* 좋아요한 상품 끝 */
+/* 구매후기 */
+#review{
+    margin-top: 100px;
+    width: 1500px;
+    margin-left: 145px;
+    
+}
+#review1{
+    margin-top: 10px;
+}
+#review>h3{
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    width: 160px;
+    height: 35px;
+}
+#review_list1{
+    border-top: 1px solid #0000006b;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    width: 800px;
+    
+}
+#review_list2{
+    border-top: 1px solid #0000006b;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    width: 800px;
+    margin-top: 10px;
+    
+}
+#review1>div:nth-child(2){
+    margin-left: 10px;
+}
+#review1>div:nth-child(1){
+    width: 150px; height: 150px;
+    background-image: url(mypageimg/like1.png);
+    background-size: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#review1>div:nth-child(2){
+    padding-left: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.176);
+}
+#review2>div:nth-child(1){
+    width: 150px; height: 150px;
+    background-image: url(mypageimg/like2.png);
+    background-size: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#review2>div:nth-child(2){
+    padding-left: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.205);
+}
+#review2>div:nth-child(2){
+    margin-left: 10px;
+}
+#under{
+    width: 1000px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.352);
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* 구매후기 끝 */
+/* 1:1문의내역 */
+#mtm{
+    margin-top: 100px;
+    width: 1500px;
+    margin-left: 145px;
+}
+#mtm>h3{
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    width: 160px;
+    height: 35px;
+}
+#mtm_list{
+    border-top: 1px solid rgba(0, 0, 0, 0.419);
+    padding-top: 10px;
+
+}
+#mtm_list>div:nth-child(1){
+    
+    width: 110px; height: 110px;
+    margin-right: 10px;
+}
+#mtm1{
+    background-image: url(mypageimg/mtm1.png);
+    background-size: contain;
+}
+#mtm_list>div:nth-child(2){
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.131);
+    padding: 10px;
+}
+/* 1:1문의내역끝 */
+/* 중간내용 끝 */
+
+/* test */
+.ㅅest{ border: 1px solid red;}
+/* test */

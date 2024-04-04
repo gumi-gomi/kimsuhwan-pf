@@ -1,0 +1,255 @@
+/* --------------- */
+.est{ border: 1px solid red;}
+.flex{display: flex;}
+.shadow{box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.475);}
+a{text-decoration: none;}
+/* --------------- */
+
+/*  메뉴바시작 */
+#menubar{
+    position: absolute;
+    color: white;
+    margin-left: 800px;
+    margin-top: 20px;
+}
+.menubar>ul>li{
+   margin-left: 20px;
+}
+#login{
+    width: 60px; height: 60px;
+    background-size: cover;
+    background-image: url(img/login.png);
+}
+#center{
+    width: 60px; height: 60px;
+    background-size: cover;
+    background-image: url(img/counse.png);
+}
+#mypage{
+    width: 60px; height: 60px;
+    background-size: cover;
+    background-image: url(img/mypage.png);
+}
+/*  메뉴바끝 */
+/* 악세-------------------- */
+
+#logo{
+    position: absolute;
+    background-image: url(img/logo.png);
+    background-size: cover;
+    width: 120px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+#insta{
+    position: absolute;
+     width: 160px;
+     height:60px;
+     background-image: url(img/insta.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin-top: 1140px;
+     margin-left: 830px;
+ }
+ #insta:hover{
+    cursor: pointer;
+ }
+.full{
+    width: 1000px;
+    height: 1200px;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+ul{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#head>li>a>div{
+   
+
+    width: 80px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.201);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+}
+#head{
+   
+
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 580px;
+}
+#head:hover{
+    cursor: pointer;
+}
+#hsub_menu>li:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+
+#hsub_menu>li{
+   
+    width: 80px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.553);
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* 악세끝----------------------------- */
+/* 아우터-------------- */
+
+#acc>li>a>div{
+    width: 100px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+}
+#acc{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 400px;
+}
+#acc:hover{
+    cursor: pointer;
+}
+#asub_menu>li:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+
+#asub_menu>li{
+    width: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.553);
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+/* 아우터끝-------------- */
+/* 몸시작--------------------------------- */
+
+ul{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#top>li>a>div{
+    width: 150px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.113);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+}
+#top{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 600px;
+}
+#top:hover{
+    cursor: pointer;
+}
+#tsub_menu>li:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+
+#tsub_menu>li{
+    width: 150px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.363);
+    margin-top: 5px;
+    text-align: center;
+}
+/* 몸끝--------------------------------- */
+
+/* 바지시작--------------------------------- */
+
+ul{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#bottom>li>a>div{
+    width: 160px;
+    height: 210px;
+    background-color: rgba(255, 255, 255, 0.113);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+}
+#bottom{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 800px;
+}
+#bottom:hover{
+    cursor: pointer;
+}
+#bsub_menu>li:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+
+#bsub_menu>li{
+    width: 160px;
+    height: 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.388);
+    margin-top: 5px;
+    text-align: center;
+}
+/* 바지끝--------------------------------- */
+
+
+/* footer 시작 */
+footer{
+   
+   height: 200px;
+   margin-top: 50px;
+   width: 100%;
+   padding: 0;
+   background: rgba(128, 128, 128, 0.329);
+
+}
+#all{
+    width: 1200px;
+    margin: 0 auto;
+}
+#copy{
+    
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    width:600px;
+    font-size:15px ;
+    border-right: 1px solid white;
+   
+}
+#lorem{
+    
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+/* footer 끝 */

@@ -1,0 +1,142 @@
+.w1200{width: 1200px;}
+.test{border: 1px solid rgba(255, 1, 1, 0);}
+.test1{background: rgba(240, 128, 128, 0.931);}
+.flex{display: flex;}
+.center{margin: 0 auto;}
+.w1500{width: 1500px;}
+body{margin: 0; padding: 0;}
+.li-gray{background-color:rgba(119, 136, 153, 0.218);}
+/* header 시작----------------------------- */
+#top_menu{
+    height: 118px;
+    justify-content: space-between;
+}
+#top_logo{
+    margin-left: 46px;
+    margin-top: 60px;
+}
+#menu_list{
+    list-style: none;
+}
+#menu_list>li{
+    margin-right: 30px;
+    margin-top: 45px;
+   
+}
+#menu_list>li>a>img{
+    width: 40px;
+}
+
+/* header 끝------------------------------ */
+
+/* 중간내용시작 */
+ul{
+    margin: 0;
+    padding: 0;
+}
+#pracleft>ul>li{
+    list-style: none;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.383);
+    text-align: center;
+    margin-top: 5px;
+    line-height: 50px;
+}
+#banner{
+    width: 1500px;
+    height: 220px;
+    background-image: url(banner.png);
+    background-repeat: no-repeat;
+
+
+}
+#pracleft{
+    width: 200px;height: 600px;
+    
+
+}
+#pracright{
+    width: 1300px; height: 600px;
+    /* margin-top: 100px; */
+}
+#pracright>div{
+    width: 1300px;
+    height: 600px;
+}
+#gjtable{
+    width: 1300px;
+}
+table{
+    margin-top: 80px;
+    width: 1300px;
+    margin-left: 15px;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+    list-style: none;
+}
+
+tr{border-bottom:  1px solid black;
+    text-align: center;
+    height: 50px;
+}
+#gjtable>tr:first-child{
+    background-color: lightblue;
+}
+
+.textform{
+    margin-left: 50px;
+    padding-top: 50px;   
+}
+.photoform{
+    padding-left: 100px;
+}
+#gjgj{
+    position: absolute;
+    margin-left: 600px;
+}
+/* 중간내용끝 */
+
+/* footer시작----------------------- */
+footer{
+    margin: 0 auto;
+    width: 1200px;
+    height: 150px;
+    background-color: #e4e4e4;
+}
+#footer_top{
+    margin: 0 auto;
+    height: 35px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.297);
+}
+.w1200{
+    width: 1200px;
+}
+#top_left>ul{
+    margin-top: 0px;
+}
+#top_left>ul>li{
+    font-size: 10px;
+    margin-right: 20px;
+    list-style: none;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+#top_left{
+    margin: auto;
+}
+#footer_bottom{
+    margin: auto;
+    justify-content: space-between;
+}
+#bottom_left{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+#bottom_right{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+/* footer시작----------------------- */

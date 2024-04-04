@@ -1,0 +1,271 @@
+/* --------------- */
+.test{ border: 1px solid red;}
+.flex{display: flex;}
+.shadow{box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.475);}
+.w1200{width: 1200px;}
+.center{margin: 0 auto;}
+/* --------------- */
+
+/* -----------------header 시작 */
+ul{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#main_menu{
+    margin-top: 65px;
+    margin-left: 5vw;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(194, 194, 194);
+    margin: 0; padding: 0;
+    z-index: 2;
+}
+#logo{
+    background-image: url(centerimg/logo.png);
+    width: 190px;
+    height: 90px;
+    background-size: cover;
+    transform: translate(0px,-20px);
+}
+#main_menu>li>div{
+    margin: 0 10px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    color: white;
+}
+.sub_menu>li{
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    background-color: white;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+#main_menu:hover{
+    cursor: pointer;
+}
+#ftwrap{
+    width: 75vw;
+}
+#ftmain_menu{
+    width: 100px; height: 25px;
+    margin-left:60vw;
+    margin-top: 1vh;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+/* -----------------header 끝*/
+
+/*  메뉴바시작 */
+#menubar{
+    position: absolute;
+    color: white;
+    margin-left: 75vw;
+    margin-top: 55px;
+}
+.menubar>ul>li{
+   margin-left:80px;
+}
+#login{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(../img/login.png);
+}
+#center{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(../img/counse.png);
+}
+#mypage{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(../img/mypage.png);
+}
+/*  메뉴바끝 */
+
+
+
+/* ----------------------------------------내용물 */
+
+#wrap{
+    width: 800px; height: 900px;
+    margin: 0 auto;
+}
+#wrap>div>h1{
+    text-align: center;
+    font-size: 25px;
+}
+#wrap>div:nth-child(1){
+   text-align: center;
+}
+#secondmenu{
+    height: 150px;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.400);
+    width: 700px;
+    
+}
+#secondsub{
+    width: 250px; height: 150px;
+}
+#secondsub>ul>li>h3,h5{
+    cursor: pointer;
+}
+#secondsub:nth-child(1)>div:nth-child(1)>h1{
+    font-size: 35px;
+    margin-top: 0px;
+}
+#secondsub:nth-child(1)>div:nth-child(1){
+    margin-top: 10px;
+}
+#secondsub:nth-child(1)>div:nth-child(2){
+    font-size: 15px;
+    font-weight: 700;
+ 
+}
+#secondsub:nth-child(2)>ul>li{
+    height:35px;
+}
+#secondsub:nth-child(2)>ul>li:nth-child(1)>h3{
+    line-height: 0px;
+}
+#secondsub:nth-child(2)>ul>li:nth-child(1)>h5{
+    line-height: 0px;
+    transform: translateY(-3px);
+}
+#secondsub:nth-child(2)>ul>li:nth-child(2)>h3{
+    line-height: 0px;
+}
+#secondsub:nth-child(2)>ul>li:nth-child(2)>h5{
+    line-height: 0px;
+    transform: translateY(-3px);
+}
+#secondsub:nth-child(2)>ul>li:nth-child(2){
+    border-top: 1px solid rgba(0, 0, 0, 0.200);
+}
+#secondsub:nth-child(2)>ul>li:nth-child(3)>h3{
+    line-height: 0px;
+}
+#secondsub:nth-child(2)>ul>li:nth-child(3)>h5{
+    line-height: 0px;
+    transform: translateY(-3px);
+}
+#secondsub:nth-child(2)>ul>li:nth-child(3){
+    border-top: 1px solid rgba(0, 0, 0, 0.200);
+}
+#secondsub:nth-child(2)>ul>li:nth-child(4)>h3{
+    line-height: 0px;
+}
+#secondsub:nth-child(2)>ul>li:nth-child(4)>h5{
+    line-height: 0px;
+    transform: translateY(-3px);
+}
+#secondsub:nth-child(2)>ul>li:nth-child(4){
+    border-top: 1px solid rgba(0, 0, 0, 0.200);
+}
+
+#faq{
+    width: 700px;
+    border-top: 1px solid rgba(0, 0, 0, 0.400);
+
+}
+#faq>div>h3{
+    font-size: 15px;
+    line-height: 55px;
+    margin-left: 10px;
+}
+#faq>div:nth-child(2)>input{
+    width: 350px; height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+}
+#faq>div:nth-child(2)>button{
+    width: 50px; height: 50px;
+    color: white;
+    background-color: black;
+    line-height: 10px;
+    border-radius: 0 5px 5px 0px;
+    border: 0;
+    
+
+}
+
+#faq2>ul>li{
+    margin-right: 20px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.468);
+}
+#faq2{
+    width: 700px;
+    border-top: 1px solid rgba(0, 0, 0, 0.400);
+    margin-top: 20px;
+}
+#faq2>ul{
+    margin-top: 5px;
+}
+#faq3{
+    width: 700px;
+    border-top: 1px solid rgba(0, 0, 0, 0.400);
+    margin-top: 20px;
+    font-size: 13px;
+}
+#faq3>table>tr{
+    height: 50px;
+    
+}
+table{
+    width: 700px;
+}
+table, td, th{
+    border-top: 1px solid black;
+    border-collapse: collapse;
+}
+tr{
+    height: 40px;
+}
+td{
+    padding-left: 60px;
+}
+/* ----------------------------------------내용물 끝 */
+#back{
+    margin-left: 20px;
+    width: 30px; height: 30px;
+    background-image: url(centerimg/back.png);
+    background-size: contain;
+    opacity: 50%;
+    border-radius: 3px;
+    position: absolute;
+}
+
+
+
+/* footer 시작 */
+footer{
+    position: relative;
+   height: 200px;
+   margin-top: 50px;
+   width: 100%;
+   padding: 0;
+   background: rgba(128, 128, 128, 0.329);
+
+}
+#copy{
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    width:600px;
+    font-size:15px ;
+    border-right: 1px solid white;
+   
+}
+#lorem{
+    position: absolute;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 700px;
+    color: white;
+}
+
+/* footer 끝 */

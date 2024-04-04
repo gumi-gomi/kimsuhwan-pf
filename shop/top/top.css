@@ -1,0 +1,266 @@
+/* --------------- */
+.est{ border: 1px solid red;}
+.flex{display: flex;}
+.shadow{box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.475);}
+.w1200{width: 1200px;}
+.center{margin: 0 auto;}
+/* --------------- */
+
+/* -----------------header 시작 */
+ul{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+#main_menu{
+    margin-top: 65px;
+    margin-left: 5vw;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(194, 194, 194);
+    margin: 0; padding: 0;
+   
+}
+#logo{
+    background-image: url(topimg/logo.png);
+    width: 190px;
+    height: 90px;
+    background-size: cover;
+    transform: translate(0px,-20px);
+}
+#main_menu>li>div{
+    margin: 0 10px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    color: white;
+}
+.sub_menu>li{
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    background-color: white;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+#main_menu:hover{
+    cursor: pointer;
+}
+#ftwrap{
+    width: 75vw;
+}
+#ftmain_menu{
+    width: 100px; height: 25px;
+    margin-left:60vw;
+    margin-top: 1vh;
+    border: 1px solid rgba(0, 0, 0, 0.225);
+}
+/* -----------------header 끝*/
+
+/*  메뉴바시작 */
+#menubar{
+    position: absolute;
+    color: white;
+    margin-left: 75vw;
+    margin-top: 55px;
+}
+.menubar>ul>li{
+   margin-left:80px;
+}
+#login{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(topimg/login.png);
+}
+#center{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(topimg/counse.png);
+}
+#mypage{
+    width: 40px; height: 40px;
+    background-size: cover;
+    background-image: url(topimg/mypage.png);
+}
+/*  메뉴바끝 */
+
+
+/* 상품나열 -------------------------*/
+#prod{
+    width: 75vw;
+    height: 2000px;
+    margin-top: 10px;
+    
+    
+}
+#headline1{
+    flex-wrap: wrap;
+}
+.ele{
+    width: 18vw;
+    height: 25vw;
+    align-items: center;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+  
+   
+    
+}
+.ele>div:hover{
+    cursor: pointer
+}
+.prodimg{
+    width:16vw;
+    height:16vw;
+    margin: 4px auto;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+.prodtext{
+    width: 16vw;
+    height: 6vw;
+    margin:0 auto;
+    font-size: 0.7vw;
+}
+h3{
+    margin: 5px auto;
+}
+del{
+    margin: 0 auto;
+}
+h4{
+    margin: 0 auto;
+}
+
+
+/* 1번사진----------------------------- */
+#topimg1{
+    background-image: url(topimg/topimg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 1번사진----------------------------- */
+/* 2번사진-------------------------------- */
+#topimg2{
+    background-image: url(topimg/topimg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 2번사진-------------------------------- */
+/* 3번사진-------------------------------- */
+#topimg3{
+    background-image: url(topimg/topimg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 3번사진-------------------------------- */
+/* 4번사진-------------------------------- */
+#topimg4{
+  
+    background-image: url(topimg/topimg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 4번사진-------------------------------- */
+/* 5번사진-------------------------------- */
+#topimg5{
+    background-image: url(topimg/topimg5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 5번사진-------------------------------- */
+/* 6번사진-------------------------------- */
+#topimg6{
+    background-image: url(topimg/topimg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 6번사진-------------------------------- */
+/* 7번사진-------------------------------- */
+#topimg7{
+    background-image: url(topimg/topimg7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 7번사진-------------------------------- */
+/* 8번사진-------------------------------- */
+#topimg8{
+    background-image: url(topimg/topimg8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 8번사진-------------------------------- */
+/* 9번사진-------------------------------- */
+#topimg9{
+    background-image: url(topimg/topimg9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 9번사진-------------------------------- */
+
+/* 상품나열끝 -------------------------*/
+
+/* 필터 */
+
+#ftmain_menu>li>div{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.448);
+   
+}
+.ftsub_menu>li{
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.108);
+    background-color: white;
+    height: 25px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.594);
+    z-index: 2;
+  
+}
+#ftmain_menu:hover{
+    cursor: pointer;
+    
+}
+.ftsub_menu>li:hover{
+    cursor: pointer;
+    background-color: rgb(183, 183, 183);
+}
+/* 필터 */
+
+
+/* footer 시작 */
+footer{
+    position: relative;
+   height: 200px;
+   margin-top: 50px;
+   width: 100%;
+   padding: 0;
+   background: rgba(128, 128, 128, 0.329);
+
+}
+#copy{
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    width:600px;
+    font-size:15px ;
+    border-right: 1px solid white;
+   
+}
+#lorem{
+    position: absolute;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 700px;
+    color: white;
+}
+
+/* footer 끝 */

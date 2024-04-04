@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang='ko'>
+   <head>
+       <meta charset='UTF-8'>
+       <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+       <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+       <title>TOP</title>
+       <script src='https://code.jquery.com/jquery-latest.min.js'></script>
+       <script src=".js"></script>
+       <link rel='stylesheet' href='mypage.css'>
+       <style></style>
+   </head>
+   <body>
+       <div id="header" class="flex">
+       <a href="../index.html"> <div id="logo" class=""></div></a>
+       <ul id="main_menu" class="flex">
+        <li>
+            <div class="" onclick="location.href='../head/head.html';">ACC</div>
+        </li>
+        <li>
+            <div onclick="location.href='../acc/acc.html';">OUTER</div>  
+        </li>
+        <li> 
+            <div onclick="location.href='top.html';">TOP</div>
+        </li>
+        <li>  
+            <div onclick="location.href='../bottom/bottom.html';">BOTTOM</div>
+        </li>
+       
+    </ul>
+     <!-- 메뉴바시작 -->
+     <div id="menubar" class="">
+        <ul class="flex test">
+            <a href="../login/login.html"><li id="login" class="menubar_sub"></li></a>
+            <a href="../center/center.html"><li id="center" class="menubar_sub"></li></a>
+            <li id="mypage" class="menubar_sub"></li>
+        </ul>
+       </div>
+       <!-- 메뉴바끝 -->
+       </div>
+
+    
+
+    
+       <!-- 중간내용 -->
+    <div id="wrap" class="test">
+       <div id="top" class="flex center test">
+        <div id="left" class="test">
+            <div>MY PAGE</div>
+            <div id="myid" class="flex  test">
+                <div class="test"></div>
+                <div class="test">
+                    <h1>gumi_gomi</h1>
+                    LV_2 멤버 가입일 2014.07.03
+                </div>
+            </div>
+        </div>
+        <div class="topinfo test">
+            <h2>적립금</h2>
+            22,222원
+        </div>
+        <div class="topinfo test">
+            <h2>포인트</h2>
+            55,000포인트
+        </div>
+        <div class="topinfo test">
+            <h2>쿠폰</h2>
+            123개
+        </div>
+    </div>
+    </div>
+
+    <!-- 왼쪽고정메뉴 -->
+    <div id="leftmenu" class="test shadow">
+        <div><h3>나의 쇼핑 활동</h3></div>
+        <ul id="leftsub">
+            <a href=""><li class="test">주문 내역 조회</li></a>
+            <a href="#like"><li class="test">좋아요</li></a>
+            <a href="#review"><li class="test">구매후기</li></a>
+            <a href="#mtm"><li class="test">1:1문의</li></a>
+           
+            <a href="../center/mtmcenter/mtm.html"><li class="test">상품문의</li></a>
+        </ul>
+    </div>
+    <!-- 왼쪽고정메뉴끝 -->
+    <!-- 주문내역 조회 -->
+    <div id="orderlist" class="test">
+        <h3 class="test">주문내역 조회</h3>
+        <ul class="flex test">
+            <li>입금/결제</li> &nbsp;&nbsp;
+            <li>배송중/픽업대기</li>&nbsp;&nbsp;
+            <li>배송완료/픽업완료</li>&nbsp;&nbsp;
+            <li>구매확정</li>&nbsp;&nbsp;
+            <li>교환</li>&nbsp;&nbsp;
+            <li>교환완료</li>&nbsp;&nbsp;
+            <li>환불</li>&nbsp;&nbsp;
+            <li>환불완료</li>&nbsp;&nbsp;
+        </ul>
+
+    </div>
+    <ul id="orderchart" class="flex">
+        <li>상품정보</li>
+        <li>주문일자</li>
+        <li>주문번호</li>
+        <li>주문수량</li>
+        <li>주문상태</li>
+    </ul>
+    <div id="latest" class="test">최근 구매내역이 없습니다.</div>
+
+    <div id="cart" class="test">
+        <h3 class="test ">장바구니</h3>
+        <ul class="flex test">
+            <li>상품정보</li>
+            <li>상품금액</li>
+            <li>수량</li>
+            <li>주문금액</li>
+            <li>배송상태 / 배송비</li>
+        </ul>
+
+    </div>
+    <div id="latest" class="test">장바구니에 담긴 물건이 없습니다.</div>
+    <div id="buy_btn" class="test">
+        결제하기
+    </div>
+    <div id="coupon" class="test">
+        <h3 class="test">쿠폰</h3>
+        <ul class="flex test">
+            <li>쿠폰번호</li>
+            <li>쿠폰명</li>
+            <li>할인율(액)</li>
+            <li>적용범위</li>
+            <li>유효기간</li>
+        </ul>
+
+    </div>
+    <table>
+        <tr class="coupon_sub test">
+            <td class="test"><h3>1111</h3></td>
+            <td class="test">아우터 득별쿠폰</td>
+            <td class="test">15%</td>
+            <td class="test">일부상품</td>
+            <td class="test">23.1.24~23.12.25</td>
+        </tr>
+        <tr class="coupon_sub test">
+            <td class="test"><h3>2222</h3></td>
+            <td class="test">여름이다! 반바지 득별쿠폰</td>
+            <td class="test">24%</td>
+            <td class="test">일부상품</td>
+            <td class="test">23.1.24~23.12.25</td>
+        </tr>
+        <tr class="coupon_sub test">
+            <td class="test"><h3>3333</h3></td>
+            <td class="test">간절기 아우터 득별쿠폰</td>
+            <td class="test">5%</td>
+            <td class="test">일부상품</td>
+            <td class="test">23.1.24~23.12.25</td>
+        </tr>
+        <tr class="coupon_sub test">
+            <td class="test"><h3>4444</h3></td>
+            <td class="test">와이드팬츠 기획전쿠폰</td>
+            <td class="test">35%</td>
+            <td class="test">일부상품</td>
+            <td class="test">23.1.24~23.12.25</td>
+        </tr> 
+        <tr class="coupon_sub test">
+            <td class="test"><h3>5555</h3></td>
+            <td class="test">취준생 주목! 셋업기획전 쿠폰</td>
+            <td class="test">15%</td>
+            <td class="test">일부상품</td>
+            <td class="test">23.1.24~23.12.25</td>
+        </tr> 
+    </table>
+    <!-- 주문내역 조회 끝 -->
+    <!-- 좋아요한 상품 -->
+    <div id="like" class="test test">
+        <h3 class="test">좋아요</h3>
+        <div id="like_list" class="test">
+            <div id="like1" class="test shadow"></div>
+            <div id="like2" class="test shadow"></div>
+        </div>
+
+    </div>
+    <!-- 좋아요한 상품 끝 -->
+
+    <!-- 나의후기 -->
+    <div id="review" class="test">
+        <h3 class="test">구매후기</h3>
+        <div id="under" class="test"></div>
+        <div id="review_list1">
+            <div id="review1" class="flex test">
+                <div class="test">
+
+                </div>
+                <div><h3>구매일자 2023 . 5 . 12 </h3>
+                    오버핏이라고 했는데 생각보다 안오버합니다. 참고하시길.. 
+
+                </div>
+            </div>
+        </div>
+        <div id="review_list2">
+            <div id="review2" class="flex">
+                <div class="test">
+
+                </div>
+                <div><h3>구매일자 2023 . 5 . 12 </h3>
+                    오버핏이라고 했는데 생각보다 안오버합니다. 참고하시길.. 
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 나의후기 끝 -->
+
+    <!-- 1:1문의내역 -->
+    <div id="mtm" class="test test">
+        <h3 class="test">1:1문의내역</h3>
+        <div id="mtm_list" class="test flex">
+            <div id="mtm1" class="test shadow"></div>
+            <div class="flex test">
+                문의내용 : 실측사이즈랑 너무 차이나는데요?&nbsp;&nbsp;&nbsp;
+                문의일자 : 2023 . 2 . 25
+                <br><br>
+                상세페이지의 실측사이즈와 실제 옷 길이가 너무 차이납니다. <br>
+                환불은 어떻게 진행하나요?           
+            </div>
+        </div>
+
+    </div>
+    <!-- 1:1문의내역 끝 -->
+    
+
+       <!-- 중간내용끝 -->
+
+
+    <footer class="flex">
+        <div id="copy" class="">
+         <h2>eepda</h2>
+         대전시 서구 탄방동 444-33 탄방빌딩, 3층 <br>
+         고객센터)042-444-4567 &nbsp; &nbsp; 
+         FAX)4545-8748-4844 &nbsp; &nbsp;
+          E-MAIL)eepda@gamil.com 
+        </div>
+        
+        <div id="lorem" class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+           pariatur.</div>
+       
+        </footer>
+    
+   </body>
+</html>

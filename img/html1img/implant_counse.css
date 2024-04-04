@@ -1,0 +1,110 @@
+.w1200{width: 1200px;}
+.est{border: 1px solid red;}
+.test1{background: lightcoral;}
+.flex{display: flex;}
+.center{margin: 0 auto;}
+
+/* header 시작----------------------------- */
+a{
+    text-decoration: none;
+}
+#top_menu{
+    height: 118px;
+    justify-content: space-between;
+}
+#top_logo{
+    margin-left: 46px;
+    margin-top: 60px;
+}
+#menu_list{
+    list-style: none;
+}
+#menu_list>li{
+    margin-right: 30px;
+    margin-top: 45px;
+   
+}
+#menu_list>li>a>img{
+    width: 40px;
+}
+
+/* header 끝------------------------------ */
+
+/* 중간내용시작 */
+#sect1{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+}
+ #sect1>img{
+    position: absolute;
+ }
+
+ 
+
+.fade-in{
+    z-index: 5;
+    width: 1200px;
+    height: 600px;
+    opacity: 0;
+    transition: 0.5s;
+ }
+ .fade-in:hover{
+    opacity: 1;
+ }
+ #sect4{
+    width: 250px; height: 80px;
+    background-color: lightblue;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 150px;
+ }
+/* 중간내용끝 */
+
+/* footer시작----------------------- */
+footer{
+    margin: 0 auto;
+    width: 1200px;
+    height: 150px;
+    background-color: #e4e4e4;
+}
+#footer_top{
+    margin: 0 auto;
+    height: 35px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.297);
+}
+.w1200{
+    width: 1200px;
+}
+#top_left>ul{
+    margin-top: 0px;
+}
+#top_left>ul>li{
+    font-size: 10px;
+    margin-right: 20px;
+    list-style: none;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+#top_left{
+    margin: auto;
+}
+#footer_bottom{
+    margin: auto;
+    justify-content: space-between;
+}
+#bottom_left{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+#bottom_right{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+/* footer시작----------------------- */

@@ -1,0 +1,366 @@
+.w1200{width: 1200px;}
+.est{outline: 1px solid red;}
+.test1{background: lightcoral;}
+.flex{display: flex;}
+.center{margin: 0 auto;}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* header 시작----------------------------- */
+
+a{
+    text-decoration: none;
+}
+#top_menu{
+    
+    background-color: white;
+    z-index: 9;
+    position: fixed;
+    height: 118px;
+    justify-content: space-between;
+}
+#top_logo{
+    margin-left: 46px;
+    margin-top: 60px;
+}
+#menu_list{
+    list-style: none;
+}
+#menu_list>li{
+    margin-right: 30px;
+    margin-top: 45px;
+   
+}
+#menu_list>li>a>img{
+    width: 40px;
+}
+
+/* header 끝------------------------------ */
+
+/* 상단 시작(article)------------------------------ */
+#sangdan{
+    padding-top: 120px;
+}
+#arti{
+   
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background-color: lightblue;
+    margin: auto;
+    overflow: hidden;
+    
+}
+#left{
+    position: absolute;
+    width: 1200px;
+}
+#right{
+    height: 400px;
+}
+#left>ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+}
+#left>ul>li{
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+
+.btn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+#left_btn{
+    bottom: 10px;
+    right: 100px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+#right_btn{
+    bottom: 10px;
+    right: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+/* 상단 끝(article)-------------------------------- */
+
+/* 서비스소개 시작(serve)------------------------ */
+#serv{
+    width: 1200px;
+    height: 527px;
+    background-image: url(serve_bg.png);
+    position: relative;
+
+}
+
+
+#serv>div>div{
+    width: 255px;
+    height: 345px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+    
+}
+#serv_menu{
+    width: 855px;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 135px;
+}
+#serv_1>div:nth-child(1){
+    text-align: center;
+}
+#serv_2>div:nth-child(1){
+    text-align: center;
+}
+#serv_3>div:nth-child(1){
+    text-align: center;
+}
+#serv_h3{
+    margin-bottom: 0px;
+
+}
+#serv_h6{
+    line-height: 0px;
+    margin-top: 0px;
+    font-weight: 300;
+}
+#serv_img{
+    margin-left: 50px;
+}
+.serv_btn{
+    width: 105px;
+    height: 35px;
+    background-color:#36b5f6 ;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+#line_b{
+    height: 15px;
+    width: 255px;
+    background-color: #36b5f6;
+    position: absolute;
+    bottom: 0px;
+}
+#serv_1{
+    position: relative;
+}
+#serv_2{
+    position: relative;
+}
+#serv_3{
+    position: relative;
+}
+/* 서비스소개 끝(serve)------------------------ */
+/* 공지사항 시작------------------ */
+#gongji{
+    width: 1200px;
+    height: 185px;
+    background-image: url(gonji_bg.png);
+    justify-content: center;
+}
+#gongji_1{
+    width: 300px;
+    height: 185px;
+}
+#gongji_1>div>div{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+#gongji_2>div:nth-child(1)>div{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+#gongji_3>div>div{
+    margin-left: 150px;
+    margin-top: 15px;
+}
+#gongji_2{
+    width: 300px;
+    height: 185px;
+}
+#gongji_3{
+    width: 300px;
+    height: 185px;
+}
+#gongji h3{
+    margin-left: 20px;
+}
+#line_g{
+    width: 2px;
+    height: 185px;
+    background-color: rgba(128, 128, 128, 0.188);
+}
+#gongji_1>h6{
+    margin-top: 0px;
+    line-height: 3px;
+    color: gray;
+    margin-left: 5px;
+}
+#gongji_2>div:nth-child(2){
+    width: 270px;
+    height: 100px;
+    margin: auto;
+}
+#gongji_2>div:nth-child(2)>div:nth-child(2){
+    text-align: center;
+    line-height: 13px;
+}
+#gongji_3>h6{
+    margin-top: 0px;
+    line-height: 3px;
+    color: gray;
+    margin-left: 5px;
+}
+#gjmenu_tb{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 공지사항 끝------------------ */
+/* 의료진소개시작------------------------- */
+#intro{
+    width: 1200px;
+    height: 395px;
+    background-image: url(intro_bg.png);
+    position: relative;
+}
+#intro>div{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.209);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: rgba(128, 128, 128, 0.779);
+    margin-left: 160px;
+    margin-top: 280px;
+}
+#intro>div>a{
+    text-decoration: none;
+    color: black;
+}
+/* 의료진소개끝------------------------- */
+/* 빠른견적문의 시작--------------------------- */
+#fast{
+    width: 1200px; 
+    height: 460px;
+    margin:0 auto;
+    background-image: url(fast_bg.png);
+    position: relative;
+}
+#fast>div{
+    position: absolute;
+    width: 620px;
+    height: 460px;
+    right: 0;
+    line-height: 10px;
+    padding-top: 70px;
+}
+#fast>div>h2,h4{
+    color: white;
+}
+input{
+    box-shadow:inset 2px 2px 6px rgba(0, 0, 0, 0.345);
+    height: 30px;
+    width: 130px;
+    border: 0;
+    padding-left: 10px;
+}
+select{
+    height: 30px;
+    width: 300px;
+    border: 0;
+    box-shadow:inset 2px 2px 6px rgba(0, 0, 0, 0.345);
+    padding-left: 10px;
+}
+#input_big{
+    height: 80px;
+    width: 450px;
+}
+#ok_btn{
+    display: inline-block;
+    background-color: #1a92d0;
+    margin-left: 14px;
+    width: 145px;
+    height: 115px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 115px;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);
+}
+#ok_btn:hover{
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* 빠른견적문의 끝--------------------------- */
+/* footer시작----------------------- */
+footer{
+    margin: 0 auto;
+    width: 1200px;z
+    height: 150px;
+    background-color: #e4e4e4;
+}
+#footer_top{
+    margin: 0 auto;
+    height: 35px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.297);
+}
+.w1200{
+    width: 1200px;
+}
+#top_left>ul{
+    margin-top: 0px;
+}
+#top_left>ul>li{
+    font-size: 10px;
+    margin-right: 20px;
+    list-style: none;
+    font-weight: 600;
+    margin-top: 10px;
+    
+}
+#top_left{
+    margin: auto;
+}
+#footer_bottom{
+    margin: auto;
+    justify-content: space-between;
+}
+#bottom_left{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+#bottom_right{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+/* footer시작----------------------- */
